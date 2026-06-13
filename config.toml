@@ -1,0 +1,39 @@
+enable-module-update = true # set this to false if you do not want to receive updates for the module
+parallel-jobs = 1
+
+# add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
+
+[YouTube]
+enabled = false
+
+[YouTube-Morphe]
+app-name = "YouTube"
+nonroot = true
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morpheus"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music]
+enabled = false
+
+[Music-Morphe]
+enabled = false
+
+[Reddit-Morphe]
+enabled = false
+
+[Twitter]
+enabled = false
+
+[GooglePhotos]
+enabled = false
+
+[Twitch]
+enabled = false
